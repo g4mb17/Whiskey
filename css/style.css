@@ -1,14 +1,26 @@
 h1 {
-    font-family: 'Fredericka the Great', cursive;
+    font-family: 'Sacramento', cursive;
+    font-size: 80px;
 }
 
 h2 {
     font-family: 'Fredericka the Great', cursive;
 
+
 }
 
 Body {
     font-family: 'Merriweather', serif
+}
+
+.opaque-overlay {
+    position: absolute;
+    top: 0;
+    letter-spacing: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0,0,0,0.5);
+    
 }
 
 .alert-container {}
@@ -21,8 +33,79 @@ Body {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    position: relative;
 }
 
 .quotes-container {}
 
 .features-container {}
+
+
+/* Jumbotron */
+
+.jumbotron {
+    background-color: transparent;
+    margin-bottom: 60px;
+}
+
+.jumbotron .lead {
+    margin: 25px 0;
+    color: #fff;
+}
+
+.jumbotron-header {
+    color: white;
+    margin-bottom: 30px
+}
+
+.jumbotron small {
+    font-size: 60%;
+    font-style: italic;
+    color: #b0b0b0;
+}
+
+/* block dividers */
+
+
+.block-divider{
+        width: 75px;
+    height: 5px;
+    border: 0;
+    
+}
+.block-divider-orange{
+background-color: #fb5f0a;
+}
+
+.block-divider-short{
+        width: 35px;
+}
+
+/* buttons */
+
+.btn--cta {
+    font-weight: bold;
+    border-radius: 23px;
+    width: 160px;
+    color: #fff;
+}
+
+.btn--red {
+    background-color: #f05f40;
+    border-color: #f05f40;
+}
+
+.btn--red:hover,
+.btn--red:active,
+.btn--red:focus,
+.btn--red:active:focus {
+    background-color: #741f1f;
+    border-color: #fff;
+    color: #fff;
+    
+}
