@@ -1,0 +1,28 @@
+h1 {
+    font-family: 'Fredericka the Great', cursive;
+}
+
+h2 {
+    font-family: 'Fredericka the Great', cursive;
+
+}
+
+Body {
+    font-family: 'Merriweather', serif
+}
+
+.alert-container {}
+
+.callout-container {
+    height: 100vh;
+
+    background: url("../images/jumbotron-BG.jpg") no-repeat bottom right fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.quotes-container {}
+
+.features-container {}
